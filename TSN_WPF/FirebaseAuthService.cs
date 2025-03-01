@@ -49,4 +49,17 @@ public class FirebaseAuthService
             return "Error: " + ex.Message;
         }
     }
+    public async Task<string> SendPasswordResetEmailAsync(string email)
+    {
+        try
+        {
+            await authClient.ResetEmailPasswordAsync(email);
+            return "Success";
+        }
+        catch (Exception ex)
+        {
+            return "Error: " + ex.Message;
+        }
+    }
+
 }
