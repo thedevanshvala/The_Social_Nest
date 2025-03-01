@@ -1,0 +1,10 @@
+{
+"SpaProxyServer": {
+"ServerUrl": "https://localhost:5173",
+"RedirectUrl": "",
+"LaunchCommand": "npm run dev",
+"WorkingDirectory": "C:\\TheSocialNest\\TSN_Web\\TSN_Web.Server\\..\\tsn_web.client",
+"MaxTimeoutInSeconds": "120",
+"KeepRunning": "false"
+}
+}

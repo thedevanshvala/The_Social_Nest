@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34622.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TSN_Web.Server", "TSN_Web.Server\TSN_Web.Server.csproj", "{36386987-8B38-4756-952E-4C0BE91B706F}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "tsn_web.client", "tsn_web.client\tsn_web.client.esproj", "{7F477A52-60F7-4985-8C93-6E96FBCB0632}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{36386987-8B38-4756-952E-4C0BE91B706F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36386987-8B38-4756-952E-4C0BE91B706F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36386987-8B38-4756-952E-4C0BE91B706F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36386987-8B38-4756-952E-4C0BE91B706F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F477A52-60F7-4985-8C93-6E96FBCB0632}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F477A52-60F7-4985-8C93-6E96FBCB0632}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F477A52-60F7-4985-8C93-6E96FBCB0632}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{7F477A52-60F7-4985-8C93-6E96FBCB0632}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F477A52-60F7-4985-8C93-6E96FBCB0632}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F477A52-60F7-4985-8C93-6E96FBCB0632}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {53C79D91-0A2D-43CB-A88C-9E1CEE0BDF60}
+	EndGlobalSection
+EndGlobal
