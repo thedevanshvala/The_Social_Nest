@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\TheSocialNest\\TSN_Web\\TSN_Web.Server\\TSN_Web.Server.csproj": {}
+    "C:\\The_Social_Nest\\TSN_Web\\TSN_Web.Server\\TSN_Web.Server.csproj": {}
   },
   "projects": {
-    "C:\\TheSocialNest\\TSN_Web\\TSN_Web.Server\\TSN_Web.Server.csproj": {
+    "C:\\The_Social_Nest\\TSN_Web\\TSN_Web.Server\\TSN_Web.Server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\TheSocialNest\\TSN_Web\\TSN_Web.Server\\TSN_Web.Server.csproj",
+        "projectUniqueName": "C:\\The_Social_Nest\\TSN_Web\\TSN_Web.Server\\TSN_Web.Server.csproj",
         "projectName": "TSN_Web.Server",
-        "projectPath": "C:\\TheSocialNest\\TSN_Web\\TSN_Web.Server\\TSN_Web.Server.csproj",
+        "projectPath": "C:\\The_Social_Nest\\TSN_Web\\TSN_Web.Server\\TSN_Web.Server.csproj",
         "packagesPath": "C:\\Users\\devan\\.nuget\\packages\\",
-        "outputPath": "C:\\TheSocialNest\\TSN_Web\\TSN_Web.Server\\obj\\",
+        "outputPath": "C:\\The_Social_Nest\\TSN_Web\\TSN_Web.Server\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\devan\\AppData\\Roaming\\NuGet\\NuGet.Config",

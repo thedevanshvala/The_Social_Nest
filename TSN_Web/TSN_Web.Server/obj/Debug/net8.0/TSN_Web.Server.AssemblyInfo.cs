@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TSN_Web.Server")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+036a2a89c4728a8511dffed8b61b434c77058f52")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d713537e319afa0d2ecd5d76282f436828c449f4")]
 [assembly: System.Reflection.AssemblyProductAttribute("TSN_Web.Server")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TSN_Web.Server")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
