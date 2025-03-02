@@ -4,6 +4,82 @@
              xmlns:local="clr-namespace:TSN_WPF"
              StartupUri="Login.xaml">
     <Application.Resources>
-         
+        <Style TargetType="Button">
+            <!-- Default Gradient Background -->
+            <Setter Property="Background">
+                <Setter.Value>
+                    <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                        <GradientStop Color="#5B86E5" Offset="0.0"/>
+                        <!-- Deep Blue -->
+                        <GradientStop Color="#36D1DC" Offset="1.0"/>
+                        <!-- Teal Blue -->
+                    </LinearGradientBrush>
+                </Setter.Value>
+            </Setter>
+
+            <!-- Foreground Color -->
+            <Setter Property="Foreground" Value="White"/>
+
+            <!-- Button Padding, Border, Font -->
+            <Setter Property="Padding" Value="10,0"/>
+            <Setter Property="FontSize" Value="15"/>
+            <Setter Property="FontWeight" Value="SemiBold"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Cursor" Value="Hand"/>
+
+            <!-- Button Corner Radius -->
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="{TemplateBinding Background}" CornerRadius="12"
+                                Padding="{TemplateBinding Padding}">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+
+            <!-- Shadow Effect -->
+            <Setter Property="Effect">
+                <Setter.Value>
+                    <DropShadowEffect Color="#333" BlurRadius="8" Opacity="0.6"/>
+                </Setter.Value>
+            </Setter>
+
+            <!-- Hover Effect -->
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background">
+                        <Setter.Value>
+                            <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                                <GradientStop Color="#3A47D5" Offset="0.0"/>
+                                <!-- Royal Blue -->
+                                <GradientStop Color="#B06AB3" Offset="1.0"/>
+                                <!-- Soft Magenta -->
+                            </LinearGradientBrush>
+                        </Setter.Value>
+                    </Setter>
+                    <Setter Property="Effect">
+                        <Setter.Value>
+                            <DropShadowEffect Color="#222" BlurRadius="12" Opacity="0.8"/>
+                        </Setter.Value>
+                    </Setter>
+                </Trigger>
+
+                <!-- Click (Pressed) Effect -->
+                <Trigger Property="IsPressed" Value="True">
+                    <Setter Property="Background">
+                        <Setter.Value>
+                            <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                                <GradientStop Color="#2C3E50" Offset="0.0"/>
+                                <!-- Midnight Blue -->
+                                <GradientStop Color="#8E44AD" Offset="1.0"/>
+                                <!-- Deep Purple -->
+                            </LinearGradientBrush>
+                        </Setter.Value>
+                    </Setter>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
     </Application.Resources>
 </Application>
